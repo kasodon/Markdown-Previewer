@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Override css rules from the reacdt-splitter-layout component. */
+.splitter-layout > .layout-splitter {
+  width: 8px;
+  background-color: #208f61;
+}
+
+.splitter-layout > .layout-splitter:hover {
+  background-color: #208f61;
+}
